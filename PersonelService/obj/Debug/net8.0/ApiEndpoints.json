@@ -1,0 +1,55 @@
+[
+  {
+    "ContainingType": "PersonelService.Controllers.PersonnelController",
+    "Method": "CreatePersonnel",
+    "RelativePath": "api/Personnel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personnelDto",
+        "Type": "PersonelService.DTOs.PersonnelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelService.Controllers.PersonnelController",
+    "Method": "UpdatePersonnel",
+    "RelativePath": "api/Personnel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "personnelDto",
+        "Type": "PersonelService.DTOs.PersonnelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonelService.Controllers.PersonnelController",
+    "Method": "DeletePersonnel",
+    "RelativePath": "api/Personnel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
